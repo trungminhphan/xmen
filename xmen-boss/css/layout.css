@@ -1700,12 +1700,12 @@ fieldset[disabled] .o-button {
 
 .m-carousel .slick-dots {
   position: absolute;
-  bottom: 25px;
+  bottom: 25px; /*25px*/
   list-style: none;
   display: block;
   text-align: center;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px 0px 0px 43px;
   width: 100%;
 }
 
@@ -6970,3 +6970,10 @@ body {
 /*------------------------------------------------------------------
 [Update module 3 CSS - Date]
 -------------------------------------------------------------------*/
+#home-sp .o-carousel .m-carousel { display: none; } 
+@media only screen and (max-width: 640px){
+  #home-sp .o-carousel .c-carousel { display: none; }
+  #home-sp .o-carousel .m-carousel { display: block; } 
+  #home-sp { margin-top: 30px; }
+  #home-sp .m-carousel .slick-dots { bottom: 100px; margin: 0px 0px 0px 0px; }
+}
