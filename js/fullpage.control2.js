@@ -37,7 +37,7 @@ if(window.innerWidth > 1025){
 		// var video_element = document.getElementById('video-default');
 		$('#fullpage-xit').fullpage({
 			verticalCentered: true,
-			anchors: ['product', 'video'],
+			anchors: ['video','product'],
 			menu: '.c-icon-scrolldown',
 			afterLoad: function(anchorLink, index) {				
 				if (index == 1) {   				
@@ -50,9 +50,15 @@ if(window.innerWidth > 1025){
 
 				}
 				if (index == 2) {
-					$(".s-section-slide").removeClass('active');	
-					$(".c-icon-scrolldown2").fadeOut();
-					video.play();	
+					//$(".s-section-slide").removeClass('active');	
+					//$(".c-icon-scrolldown2").fadeOut();
+					//video.play();
+					$(".s-section-slide").removeClass('active');
+					$(".c-icon-scrolldown2").fadeIn();
+					video.pause();
+					setTimeout(function() {
+						$('.s-video-wrapper-v').addClass('show');
+					}, 1000);
 				}
 			}		
 		});
