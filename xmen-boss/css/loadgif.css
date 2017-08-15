@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1024px) {
+  .shampoo .section-1 .s-wrapper-slide .s-section-slide.c-slide1 .m-video {
+    background: url(../images/mv-fire.gif) no-repeat 0 center;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .shampoo .section-1 .s-wrapper-slide .s-section-slide.c-slide2 .m-video {
+    background: url(../images/mv-metal.gif) no-repeat 0 center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .shampoo .section-1 .s-wrapper-slide .s-section-slide.c-slide3 .m-video {
+    background: url(../images/mv-water.gif) no-repeat 0 center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .shampoo .section-1 .s-wrapper-slide .s-section-slide.c-slide4 .m-video {
+    background: url(../images/mv-wood.gif) no-repeat 0 center;
+  }
+}

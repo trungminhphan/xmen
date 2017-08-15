@@ -1,0 +1,56 @@
+.video-js:-webkit-full-screen {
+  position: static !important;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+
+@font-face {
+  font-family: Helve;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Helve/UTM_Helve.eot") format("embedded-opentype");
+  src: url("../fonts/Helve/UTM_Helve.eot?#iefix") format("embedded-opentype"), url("../fonts/Helve/UTM_Helve.woff") format("woff"), url("../fonts/Helve/UTM_Helve.ttf") format("ttf"), url("../fonts/Helve/UTM_Helve.svg#Helve") format("svg");
+}
+
+@font-face {
+  font-family: Helve;
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/Helve/UTM_Helve_Italic.eot") format("embedded-opentype");
+  src: url("../fonts/Helve/UTM_Helve_Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Helve/UTM_Helve_Italic.woff") format("woff"), url("../fonts/Helve/UTM_Helve_Italic.ttf") format("ttf"), url("../fonts/Helve/UTM_Helve_Italic.svg#Helve") format("svg");
+}
+
+@font-face {
+  font-family: Helve;
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Helve/UTM_HelveBold.eot") format("embedded-opentype");
+  src: url("../fonts/Helve/UTM_HelveBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Helve/UTM_HelveBold.woff") format("woff"), url("../fonts/Helve/UTM_HelveBold.ttf") format("ttf"), url("../fonts/Helve/UTM_HelveBold.svg#Helve") format("svg");
+}
+
+@font-face {
+  font-family: UTMNeo;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/UTMNeo/UTMNeoSansIntel.eot") format("embedded-opentype");
+  src: url("../fonts/UTMNeo/UTMNeoSansIntel.eot?#iefix") format("embedded-opentype"), url("../fonts/UTMNeo/UTMNeoSansIntel.woff") format("woff"), url("../fonts/UTMNeo/UTMNeoSansIntel.ttf") format("ttf"), url("../fonts/UTMNeo/UTMNeoSansIntel.svg#UTMNeo") format("svg");
+}
+
+@font-face {
+  font-family: UTMNeo;
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/UTMNeo/UTMNeoSansIntel-Bold.eot") format("embedded-opentype");
+  src: url("../fonts/UTMNeo/UTMNeoSansIntel-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/UTMNeo/UTMNeoSansIntel-Bold.woff") format("woff"), url("../fonts/UTMNeo/UTMNeoSansIntel-Bold.ttf") format("ttf"), url("../fonts/UTMNeo/UTMNeoSansIntel-Bold.svg#UTMNeo") format("svg");
+}
+
+@font-face {
+  font-family: PalatinoLino;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/PalatinoLino/PalatinoLinotype-Roman.eot") format("embedded-opentype");
+  src: url("../fonts/PalatinoLino/PalatinoLinotype-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/PalatinoLino/PalatinoLinotype-Roman.woff") format("woff"), url("../fonts/PalatinoLino/PalatinoLinotype-Roman.ttf") format("ttf"), url("../fonts/PalatinoLino/PalatinoLinotype-Roman.svg#PalatinoLino") format("svg");
+}
