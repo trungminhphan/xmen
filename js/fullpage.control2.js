@@ -46,8 +46,7 @@ if(window.innerWidth > 1025){
 					video.pause();
 					setTimeout(function() {
 						$('.s-video-wrapper-v').addClass('show');
-					}, 1000);
-
+					}, 1000);$(".logo").show();
 				}
 				if (index == 2) {
 					//$(".s-section-slide").removeClass('active');	
@@ -58,7 +57,7 @@ if(window.innerWidth > 1025){
 					video.pause();
 					setTimeout(function() {
 						$('.s-video-wrapper-v').addClass('show');
-					}, 1000);
+					}, 1000); $(".logo").hide();
 				}
 			}		
 		});

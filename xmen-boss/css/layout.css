@@ -4730,7 +4730,7 @@ body {
   height: 50px;
   width: 50px;
   position: relative;
-  top: 50%;
+  top: 40%;
   bottom: auto;
   z-index: 100;
   -webkit-transform: translateY(-50%);
@@ -4742,7 +4742,7 @@ body {
   z-index: 1000;
   cursor: pointer;
   opacity: 0.8;
-  margin-top: 7%;
+  margin-top: 5%;
 }
 
 .shampoo .o-arrow:hover {
@@ -5915,7 +5915,7 @@ body {
 .c-icon-scrolldown2 .icon-scroll {
   height: 92px;
   width: 25px;
-  margin: 0 auto 10px;
+  margin: 0 auto 0px;
   display: block;
   background: url(../images/mouse.png) no-repeat 0 0;
   -webkit-animation: playar 1s steps(6) infinite;
