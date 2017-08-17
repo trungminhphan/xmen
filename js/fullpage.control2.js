@@ -47,6 +47,7 @@ if(window.innerWidth > 1025){
 					setTimeout(function() {
 						$('.s-video-wrapper-v').addClass('show');
 					}, 1000);$(".logo").show();
+					$(".w-social").css({'left' : '320px'});
 				}
 				if (index == 2) {
 					//$(".s-section-slide").removeClass('active');	
@@ -57,7 +58,9 @@ if(window.innerWidth > 1025){
 					video.pause();
 					setTimeout(function() {
 						$('.s-video-wrapper-v').addClass('show');
-					}, 1000); $(".logo").hide();
+					}, 1000);
+					$(".logo").hide();
+					$(".w-social").css({'left' : '10px'});
 				}
 			}		
 		});
